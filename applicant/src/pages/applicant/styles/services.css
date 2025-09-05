@@ -1,0 +1,73 @@
+.header-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header-section p {
+  font-size: 1rem;
+  color: #6c757d;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.service-card {
+  border-radius: 19px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2) !important;
+}
+
+.v-card__text {
+  padding: 32px 24px 16px 24px;
+}
+
+.icon-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #eaf2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+  min-height: 110px;
+  /* Ensures cards have a similar height */
+}
+
+.v-card__actions {
+  background-color: transparent;
+}
+
+.v-btn {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  box-shadow: none;
+}
