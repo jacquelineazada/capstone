@@ -1,0 +1,54 @@
+.nav-links .v-btn {
+  text-transform: none !important;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.info-section {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.info-title {
+  color: #4a148c;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+}
+
+.icon-wrapper.blue-bg {
+  background-color: #e8f0fe;
+}
+
+.icon-wrapper.green-bg {
+  background-color: #e6f9f0;
+}
+
+.icon-wrapper.purple-bg {
+  background-color: #f3e8ff;
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+  padding: 0 10px;
+}
